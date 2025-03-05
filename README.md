@@ -4,7 +4,7 @@
 <pre>
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Python/HTML • Neovim 
-    💾 Open source creations • Collaborative projects
+    💾 Open source software • Collaborative projects
 </pre>
 </div>
 
@@ -28,6 +28,6 @@ arch in ~
 <div align="center">
 <img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="100" />
 
-[![](https://img.shields.io/badge/linkedin-0a66c2)](http://linkedin.com/in/ehe)
+[![](https://img.shields.io/badge/linkedin-800080)](http://linkedin.com/in/ehe)
 <br><br><br>
 </div>
