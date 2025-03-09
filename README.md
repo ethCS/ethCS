@@ -16,7 +16,7 @@
         .ethcs.          ​compositor : hyprland (wayland)
        ..;'eth.         ​ shell : ohmyzsh+powerlevel10k 
       .ethcs.eth.       ​ uptime : 25 years
-     .eth'   'cse.      ​ terminal : kitty w/ tmux
+     .eth'   'cse.      ​ terminal : kitty+tmux
     .cse'     'th:.      editor : nvchad (neovim config)
    .ethc'     's:;..    └───────────────────────────────┘ 
   ."'             '".     E   T   H   A   N   (イーサン)
