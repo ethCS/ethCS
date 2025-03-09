@@ -3,27 +3,27 @@
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
-    💻 Currently learning Python/HTML • Neovim 
+    💻 Currently learning Python • HTML/CSS
     💾 Open source software • Collaborative projects
 </pre>
 </div>
 
 ```
-
-           .             ​ ethCS@github 🐤🐥
-          .e.           ┌───────────────────────────────┐ 
-         .eth.           ​ os : ethan 
-        .ethcs.          ​ kernel : linux 6.13.4-arch1-1 
-       ..;'eth.          ​ wm : hyprland 
-      .ethcs.eth.        ​ shell : bash
-     .eth'   'cse.       ​ uptime : 25 years
-    .cse'     'th:.      ​ terminal : kitty
+                               ​ ethCS@github 🐤🐥
+           .            ┌───────────────────────────────┐ 
+          .e.           ​ os : ethan
+         .eth.          ​ kernel : linux 6.13.4-arch1-1 
+        .ethcs.          ​compositor : hyprland (wayland)
+       ..;'eth.         ​ shell : ohmyzsh+powerlevel10k 
+      .ethcs.eth.       ​ uptime : 25 years
+     .eth'   'cse.      ​ terminal : kitty 0.39.1-1
+    .cse'     'th:.      editor : nvchad (neovim in lua)
    .ethc'     's:;..    └───────────────────────────────┘ 
   ."'             '".     E   T   H   A   N   (イーサン)
 
 
 arch in ~ 
-  λ echo "never fold, never break"
+  λ echo "hello world!"
 ```
 <div align="center">
 <img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="100" />
