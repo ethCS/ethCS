@@ -25,7 +25,7 @@
    </style>
    
    <!-- Prompt -->
-   <text x="10" y="30" class="prompt">user@host:~$</text>
+   <text x="0" y="30" class="prompt">user@host:~$</text>
    
    <!-- Each letter in the sentence -->
    <g class="typed-text">
