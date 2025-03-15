@@ -5,6 +5,9 @@
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Python • HTML/CSS
     💾 Open source software • Collaborative projects
+
+<img src="https://github.com/ethCS/ethCS/blob/main/assets/cat.gif?raw=true" height="250" />
+    
 </pre>
 </div>
 
@@ -26,7 +29,7 @@ arch in ~
   λ echo "hello world!"
 ```
 <div align="center">
-<img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="100" />
+<img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" />
 
 [![](https://img.shields.io/badge/linkedin-800080)](http://linkedin.com/in/ehe)
 <br><br><br>
