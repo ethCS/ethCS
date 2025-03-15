@@ -1,13 +1,11 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/ethCS/ethCS/db8359ac599a4afbfe0dc9ec20cc964cf7d4fcde/assets/readme-typing-svg.svg" width="70%" />
+<img src="https://raw.githubusercontent.com/ethCS/ethCS/c6c65f6e38b0f9cd44c079e234be9c47cfa9079f/assets/readme-typing-svg.svg" width="70%" />
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Python • HTML/CSS
     💾 Open source software • Collaborative projects
-
 <img src="https://github.com/ethCS/ethCS/blob/main/assets/cat.gif?raw=true" height="250" />
-    
 </pre>
 </div>
 
