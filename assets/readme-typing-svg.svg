@@ -1,418 +1,162 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 565 60">
-  <style>
-    @keyframes blink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    
-    text {
-      font-family: 'Courier New', monospace;
-      font-size: 16px;
-    }
-    
-    .prompt {
-      fill: #50fa7b;
-    }
-    
-    .typed-text {
-      fill: #8FE5FF;
-    }
-    
-    .cursor {
-      fill: #f8f8f2;
-      animation: blink 1s step-end infinite;
-    }
-    
-    .highlight {
-      fill: #3465A4;
-      opacity: 0;
-    }
-  </style>
-  
-  <!-- Prompt with proper space after the $ -->
-  <text x="10" y="30" class="prompt">user@host:~$ </text>
-  
-  <!-- Text container -->
-  <g class="typed-text">
-    <!-- welcome... -->
-    <text id="char1" x="125" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0s;loop.end" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      w
-    </text>
-    <text id="char2" x="133" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.1s;loop.end+0.1s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      e
-    </text>
-    <text id="char3" x="141" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.2s;loop.end+0.2s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      l
-    </text>
-    <text id="char4" x="149" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.3s;loop.end+0.3s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      c
-    </text>
-    <text id="char5" x="157" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.4s;loop.end+0.4s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      o
-    </text>
-    <text id="char6" x="165" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.5s;loop.end+0.5s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      m
-    </text>
-    <text id="char7" x="173" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.6s;loop.end+0.6s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      e
-    </text>
-    <text id="char8" x="181" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.7s;loop.end+0.7s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      .
-    </text>
-    <text id="char9" x="189" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.8s;loop.end+0.8s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      .
-    </text>
-    <text id="char10" x="197" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="0.9s;loop.end+0.9s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      .
-    </text>
-    <text id="char11" x="205" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.0s;loop.end+1.0s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    
-    <!-- i'm ethan, -->
-    <text id="char12" x="213" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.3s;loop.end+1.3s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      i
-    </text>
-    <text id="char13" x="221" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.4s;loop.end+1.4s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      '
-    </text>
-    <text id="char14" x="229" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.5s;loop.end+1.5s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      m
-    </text>
-    <text id="char15" x="237" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.6s;loop.end+1.6s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    <text id="char16" x="245" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.7s;loop.end+1.7s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      e
-    </text>
-    <text id="char17" x="253" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.8s;loop.end+1.8s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      t
-    </text>
-    <text id="char18" x="261" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="1.9s;loop.end+1.9s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      h
-    </text>
-    <text id="char19" x="269" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.0s;loop.end+2.0s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      a
-    </text>
-    <text id="char20" x="277" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.1s;loop.end+2.1s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      n
-    </text>
-    <text id="char21" x="285" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.2s;loop.end+2.2s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      ,
-    </text>
-    <text id="char22" x="293" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.3s;loop.end+2.3s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    
-    <!-- a tech enthusiast -->
-    <text id="char23" x="301" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.4s;loop.end+2.4s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      a
-    </text>
-    <text id="char24" x="309" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.5s;loop.end+2.5s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    <text id="char25" x="317" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.6s;loop.end+2.6s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      t
-    </text>
-    <text id="char26" x="325" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.7s;loop.end+2.7s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      e
-    </text>
-    <text id="char27" x="333" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.8s;loop.end+2.8s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      c
-    </text>
-    <text id="char28" x="341" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="2.9s;loop.end+2.9s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      h
-    </text>
-    <text id="char29" x="349" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.0s;loop.end+3.0s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    <text id="char30" x="357" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.1s;loop.end+3.1s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      e
-    </text>
-    <text id="char31" x="365" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.2s;loop.end+3.2s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      n
-    </text>
-    <text id="char32" x="373" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.3s;loop.end+3.3s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      t
-    </text>
-    <text id="char33" x="381" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.4s;loop.end+3.4s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      h
-    </text>
-    <text id="char34" x="389" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.5s;loop.end+3.5s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      u
-    </text>
-    <text id="char35" x="397" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.6s;loop.end+3.6s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      s
-    </text>
-    <text id="char36" x="405" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.7s;loop.end+3.7s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      i
-    </text>
-    <text id="char37" x="413" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.8s;loop.end+3.8s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      a
-    </text>
-    <text id="char38" x="421" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="3.9s;loop.end+3.9s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      s
-    </text>
-    <text id="char39" x="429" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.0s;loop.end+4.0s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      t
-    </text>
-    <text id="char40" x="437" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.1s;loop.end+4.1s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    
-    <!-- and cs student -->
-    <text id="char41" x="445" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.2s;loop.end+4.2s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      a
-    </text>
-    <text id="char42" x="453" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.3s;loop.end+4.3s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      n
-    </text>
-    <text id="char43" x="461" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.4s;loop.end+4.4s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      d
-    </text>
-    <text id="char44" x="469" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.5s;loop.end+4.5s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    <text id="char45" x="477" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.6s;loop.end+4.6s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      c
-    </text>
-    <text id="char46" x="485" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.7s;loop.end+4.7s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      s
-    </text>
-    <text id="char47" x="493" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.8s;loop.end+4.8s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      &nbsp;
-    </text>
-    <text id="char48" x="501" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="4.9s;loop.end+4.9s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      s
-    </text>
-    <text id="char49" x="509" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.0s;loop.end+5.0s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      t
-    </text>
-    <text id="char50" x="517" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.1s;loop.end+5.1s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      u
-    </text>
-    <text id="char51" x="525" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.2s;loop.end+5.2s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      d
-    </text>
-    <text id="char52" x="533" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.3s;loop.end+5.3s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      e
-    </text>
-    <text id="char53" x="541" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.4s;loop.end+5.4s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      n
-    </text>
-    <text id="char54" x="549" y="30" opacity="0">
-      <animate attributeName="opacity" values="0;1" begin="5.5s;loop.end+5.5s" dur="0.1s" fill="freeze" />
-      <animate attributeName="opacity" values="1;0" begin="clear.begin" dur="0.1s" fill="freeze" />
-      t
-    </text>
-  </g>
-  
-  <!-- Highlight rectangle -->
-  <rect class="highlight" x="125" y="18" width="432" height="16">
-    <animate id="highlight-begin" 
-             attributeName="opacity" 
-             values="0;0;0.5"
-             keyTimes="0;0.9;1" 
-             begin="5.7s;loop.end+5.7s" 
-             dur="0.3s" 
-             fill="freeze" />
-    <animate id="highlight-end"
-             attributeName="opacity"
-             values="0.5;0"
-             begin="highlight-begin.end+1s"
-             dur="0.2s"
-             fill="freeze" />
-  </rect>
-  
-  <!-- Animation control element to clear text -->
-  <rect width="0" height="0" opacity="0">
-    <animate id="clear"
-             attributeName="opacity"
-             values="0;0"
-             begin="highlight-begin.end+0.7s"
-             dur="0.01s"
-             fill="freeze" />
-    <animate id="loop"
-             attributeName="opacity"
-             values="0;0"
-             begin="highlight-end.end+0.5s"
-             dur="0.01s"
-             fill="freeze" />
-  </rect>
-  
-  <!-- Cursor with CSS blinking animation -->
-  <rect id="cursor-base" class="cursor" x="125" y="18" width="7" height="16">
-    <!-- Movement animations only -->
-    <animate attributeName="x" values="125;125" begin="0s;loop.end" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="125;133" begin="0s;loop.end" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="133;141" begin="0.1s;loop.end+0.1s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="141;149" begin="0.2s;loop.end+0.2s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="149;157" begin="0.3s;loop.end+0.3s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="157;165" begin="0.4s;loop.end+0.4s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="165;173" begin="0.5s;loop.end+0.5s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="173;181" begin="0.6s;loop.end+0.6s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="181;189" begin="0.7s;loop.end+0.7s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="189;197" begin="0.8s;loop.end+0.8s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="197;205" begin="0.9s;loop.end+0.9s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="205;213" begin="1.0s;loop.end+1.0s" dur="0.3s" fill="freeze" />
-    
-    <animate attributeName="x" values="213;221" begin="1.3s;loop.end+1.3s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="221;229" begin="1.4s;loop.end+1.4s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="229;237" begin="1.5s;loop.end+1.5s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="237;245" begin="1.6s;loop.end+1.6s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="245;253" begin="1.7s;loop.end+1.7s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="253;261" begin="1.8s;loop.end+1.8s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="261;269" begin="1.9s;loop.end+1.9s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="269;277" begin="2.0s;loop.end+2.0s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="277;285" begin="2.1s;loop.end+2.1s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="285;293" begin="2.2s;loop.end+2.2s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="293;301" begin="2.3s;loop.end+2.3s" dur="0.1s" fill="freeze" />
-    
-    <animate attributeName="x" values="301;309" begin="2.4s;loop.end+2.4s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="309;317" begin="2.5s;loop.end+2.5s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="317;325" begin="2.6s;loop.end+2.6s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="325;333" begin="2.7s;loop.end+2.7s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="333;341" begin="2.8s;loop.end+2.8s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="341;349" begin="2.9s;loop.end+2.9s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="349;357" begin="3.0s;loop.end+3.0s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="357;365" begin="3.1s;loop.end+3.1s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="365;373" begin="3.2s;loop.end+3.2s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="373;381" begin="3.3s;loop.end+3.3s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="381;389" begin="3.4s;loop.end+3.4s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="389;397" begin="3.5s;loop.end+3.5s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="397;405" begin="3.6s;loop.end+3.6s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="405;413" begin="3.7s;loop.end+3.7s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="413;421" begin="3.8s;loop.end+3.8s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="421;429" begin="3.9s;loop.end+3.9s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="429;437" begin="4.0s;loop.end+4.0s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="437;445" begin="4.1s;loop.end+4.1s" dur="0.1s" fill="freeze" />
-    
-    <animate attributeName="x" values="445;453" begin="4.2s;loop.end+4.2s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="453;461" begin="4.3s;loop.end+4.3s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="461;469" begin="4.4s;loop.end+4.4s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="469;477" begin="4.5s;loop.end+4.5s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="477;485" begin="4.6s;loop.end+4.6s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="485;493" begin="4.7s;loop.end+4.7s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="493;501" begin="4.8s;loop.end+4.8s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="501;509" begin="4.9s;loop.end+4.9s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="509;517" begin="5.0s;loop.end+5.0s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="517;525" begin="5.1s;loop.end+5.1s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="525;533" begin="5.2s;loop.end+5.2s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="533;541" begin="5.3s;loop.end+5.3s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="541;549" begin="5.4s;loop.end+5.4s" dur="0.1s" fill="freeze" />
-    <animate attributeName="x" values="549;557" begin="5.5s;loop.end+5.5s" dur="0.1s" fill="freeze" />
-    
-    <!-- Hide cursor during highlight -->
-    <animate attributeName="opacity" values="1;0" begin="highlight-begin.begin" dur="0.1s" fill="freeze" />
-    <!-- Move cursor back to beginning -->
-    <animate attributeName="x" values="557;125" begin="clear.begin" dur="0.1s" fill="freeze" />
-    <!-- Show cursor again after reset -->
-    <animate attributeName="opacity" values="0;1" begin="loop.begin" dur="0.1s" fill="freeze" />
-    </rect>
-  </svg>
+   <style>
+     @keyframes blink {
+       0%, 49% { opacity: 1; }
+       50%, 100% { opacity: 0; }
+     }
+     
+     text {
+       font-family: 'Courier New', monospace;
+       font-size: 16px;
+     }
+     
+     .prompt {
+       fill: #50fa7b;
+     }
+     
+     .typed-text {
+       fill: #8FE5FF;
+     }
+     
+     .cursor {
+       fill: #f8f8f2;
+       animation: blink 1s step-end infinite;
+     }
+   </style>
+   
+   <!-- Prompt -->
+   <text x="10" y="30" class="prompt">user@host:~$</text>
+   
+   <!-- Each letter in the sentence -->
+   <g class="typed-text">
+     <!-- welcome... -->
+     <text x="125" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.01s" fill="freeze" />w</text>
+     <text x="133" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.01s" fill="freeze" />e</text>
+     <text x="141" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.01s" fill="freeze" />l</text>
+     <text x="149" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.01s" fill="freeze" />c</text>
+     <text x="157" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.01s" fill="freeze" />o</text>
+     <text x="165" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.01s" fill="freeze" />m</text>
+     <text x="173" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.01s" fill="freeze" />e</text>
+     <text x="181" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.01s" fill="freeze" />.</text>
+     <text x="189" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.01s" fill="freeze" />.</text>
+     <text x="197" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.01s" fill="freeze" />.</text>
+     <text x="205" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.01s" fill="freeze" /> </text>
+     
+     <!-- i'm ethan, -->
+     <text x="213" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.01s" fill="freeze" />i</text>
+     <text x="221" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.8s" dur="0.01s" fill="freeze" />'</text>
+     <text x="229" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.01s" fill="freeze" />m</text>
+     <text x="237" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.0s" dur="0.01s" fill="freeze" /> </text>
+     <text x="245" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.1s" dur="0.01s" fill="freeze" />e</text>
+     <text x="253" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.2s" dur="0.01s" fill="freeze" />t</text>
+     <text x="261" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.3s" dur="0.01s" fill="freeze" />h</text>
+     <text x="269" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.4s" dur="0.01s" fill="freeze" />a</text>
+     <text x="277" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.5s" dur="0.01s" fill="freeze" />n</text>
+     <text x="285" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.01s" fill="freeze" />,</text>
+     <text x="293" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.01s" fill="freeze" /> </text>
+     
+     <!-- a tech enthusiast -->
+     <text x="301" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.01s" fill="freeze" />a</text>
+     <text x="309" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.01s" fill="freeze" /> </text>
+     <text x="317" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.0s" dur="0.01s" fill="freeze" />t</text>
+     <text x="325" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.1s" dur="0.01s" fill="freeze" />e</text>
+     <text x="333" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.2s" dur="0.01s" fill="freeze" />c</text>
+     <text x="341" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.3s" dur="0.01s" fill="freeze" />h</text>
+     <text x="349" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.4s" dur="0.01s" fill="freeze" /> </text>
+     <text x="357" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.01s" fill="freeze" />e</text>
+     <text x="365" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.6s" dur="0.01s" fill="freeze" />n</text>
+     <text x="373" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.01s" fill="freeze" />t</text>
+     <text x="381" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.8s" dur="0.01s" fill="freeze" />h</text>
+     <text x="389" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.01s" fill="freeze" />u</text>
+     <text x="397" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.0s" dur="0.01s" fill="freeze" />s</text>
+     <text x="405" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.1s" dur="0.01s" fill="freeze" />i</text>
+     <text x="413" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.2s" dur="0.01s" fill="freeze" />a</text>
+     <text x="421" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.01s" fill="freeze" />s</text>
+     <text x="429" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.4s" dur="0.01s" fill="freeze" />t</text>
+     <text x="437" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.5s" dur="0.01s" fill="freeze" /> </text>
+     
+     <!-- and cs student -->
+     <text x="445" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.6s" dur="0.01s" fill="freeze" />a</text>
+     <text x="453" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.7s" dur="0.01s" fill="freeze" />n</text>
+     <text x="461" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.01s" fill="freeze" />d</text>
+     <text x="469" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.01s" fill="freeze" /> </text>
+     <text x="477" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.0s" dur="0.01s" fill="freeze" />c</text>
+     <text x="485" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.01s" fill="freeze" />s</text>
+     <text x="493" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.2s" dur="0.01s" fill="freeze" /> </text>
+     <text x="501" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.3s" dur="0.01s" fill="freeze" />s</text>
+     <text x="509" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.4s" dur="0.01s" fill="freeze" />t</text>
+     <text x="517" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.01s" fill="freeze" />u</text>
+     <text x="525" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.01s" fill="freeze" />d</text>
+     <text x="533" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.7s" dur="0.01s" fill="freeze" />e</text>
+     <text x="541" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.8s" dur="0.01s" fill="freeze" />n</text>
+     <text x="549" y="30" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="5.9s" dur="0.01s" fill="freeze" />t</text>
+   </g>
+   
+   <!-- Animated cursor -->
+   <rect id="cursor" class="cursor" x="125" y="18" width="7" height="16">
+     <!-- Initial position -->
+     <animate attributeName="x" values="125;125" begin="0s" dur="0.4s" fill="freeze" />
+     
+     <!-- Synchronized cursor movements for "welcome..." -->
+     <animate attributeName="x" values="125;133" begin="0.4s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="133;141" begin="0.5s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="141;149" begin="0.6s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="149;157" begin="0.7s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="157;165" begin="0.8s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="165;173" begin="0.9s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="173;181" begin="1.0s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="181;189" begin="1.1s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="189;197" begin="1.2s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="197;205" begin="1.3s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="205;213" begin="1.4s" dur="0.3s" fill="freeze" />
+     
+     <!-- Synchronized cursor movements for "i'm ethan, " -->
+     <animate attributeName="x" values="213;221" begin="1.7s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="221;229" begin="1.8s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="229;237" begin="1.9s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="237;245" begin="2.0s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="245;253" begin="2.1s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="253;261" begin="2.2s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="261;269" begin="2.3s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="269;277" begin="2.4s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="277;285" begin="2.5s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="285;293" begin="2.6s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="293;301" begin="2.7s" dur="0.1s" fill="freeze" />
+     
+     <!-- Synchronized cursor movements for "a tech enthusiast " -->
+     <animate attributeName="x" values="301;309" begin="2.8s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="309;317" begin="2.9s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="317;325" begin="3.0s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="325;333" begin="3.1s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="333;341" begin="3.2s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="341;349" begin="3.3s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="349;357" begin="3.4s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="357;365" begin="3.5s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="365;373" begin="3.6s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="373;381" begin="3.7s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="381;389" begin="3.8s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="389;397" begin="3.9s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="397;405" begin="4.0s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="405;413" begin="4.1s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="413;421" begin="4.2s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="421;429" begin="4.3s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="429;437" begin="4.4s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="437;445" begin="4.5s" dur="0.1s" fill="freeze" />
+     
+     <!-- Synchronized cursor movements for "and cs student" -->
+     <animate attributeName="x" values="445;453" begin="4.6s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="453;461" begin="4.7s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="461;469" begin="4.8s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="469;477" begin="4.9s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="477;485" begin="5.0s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="485;493" begin="5.1s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="493;501" begin="5.2s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="501;509" begin="5.3s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="509;517" begin="5.4s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="517;525" begin="5.5s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="525;533" begin="5.6s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="533;541" begin="5.7s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="541;549" begin="5.8s" dur="0.1s" fill="freeze" />
+     <animate attributeName="x" values="549;557" begin="5.9s" dur="0.1s" fill="freeze" />
+   </rect>
+ </svg>
