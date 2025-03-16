@@ -5,7 +5,7 @@
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Python • HTML/CSS
     💾 Open source software • Collaborative projects
-<img src="https://github.com/ethCS/ethCS/blob/main/assets/cat.gif?raw=true" height="250" />
+<img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="250" />
 </pre>
 </div>
 
