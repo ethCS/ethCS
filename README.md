@@ -5,7 +5,7 @@
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Python • HTML/CSS
     💾 Open source software • Collaborative projects
-<img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="230" />
+<a href="http://linkedin.com/in/ehe"><img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="230" /></a>
 </pre>
 </div>
 
