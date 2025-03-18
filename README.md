@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/ethCS/ethCS/a12b0a8de3aaa9a644aba22f2455dc4de6e584a5/assets/readme-typing-svg.svg" width="70%" />
+<a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/a12b0a8de3aaa9a644aba22f2455dc4de6e584a5/assets/readme-typing-svg.svg" width="70%" /></a>
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
