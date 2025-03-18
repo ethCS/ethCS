@@ -1,11 +1,11 @@
 <div align="center">
-<a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/a12b0a8de3aaa9a644aba22f2455dc4de6e584a5/assets/readme-typing-svg.svg" width="70%" /></a>
+<a href="https://github.com/ethCS/"><img src="https://raw.githubusercontent.com/ethCS/ethCS/a12b0a8de3aaa9a644aba22f2455dc4de6e584a5/assets/readme-typing-svg.svg" width="70%" /></a>
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Python • HTML/CSS
     💾 Open source software • Collaborative projects
-<a href="http://linkedin.com/in/ehe"><img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="230" /></a>
+<a href="https://github.com/ethCS/"><img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="230" /></a>
 </pre>
 </div>
 
@@ -27,7 +27,7 @@ arch in ~
   λ echo "hello world!"
 ```
 <div align="center">
-<img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" />
+<div align="center"> <a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" /></a>
 
 [![](https://img.shields.io/badge/linkedin-800080)](http://linkedin.com/in/ehe)
 <br><br><br>
