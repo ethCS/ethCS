@@ -27,7 +27,7 @@ arch in ~
   λ echo "hello world!"
 ```
 <div align="center">
-<div align="center"> <a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" /></a>
+<div align="center"> <a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" width="60" /></a>
 
 [![](https://img.shields.io/badge/linkedin-800080)](http://linkedin.com/in/ehe)
 <br><br><br>
