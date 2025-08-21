@@ -3,7 +3,7 @@
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
-    💻 Currently learning Python • HTML/CSS
+    💻 Currently learning Java • HTML/CSS
     💾 Open source software • Collaborative projects
 <a href="https://github.com/ethCS/"><img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="230" /></a>
 </pre>
