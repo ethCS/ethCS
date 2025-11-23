@@ -16,9 +16,9 @@
          .eth.          ​ kernel : linux 6.13.4-arch1-1 
         .ethcs.          ​compositor : hyprland (wayland)
        ..;'eth.         ​ shell : ohmyzsh+powerlevel10k 
-      .ethcs.eth.       ​ uptime : 25 years
+      .ethcs.eth.       ​ uptime : 3 years
      .eth'   'cse.      ​ terminal : kitty+tmux
-    .cse'     'th:.      editor : nvchad (neovim config)
+    .cse'     'th:.      editor : nvim
    .ethc'     's:;..    └───────────────────────────────┘ 
   ."'             '".     E   T   H   A   N   (イーサン)
 
