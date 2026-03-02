@@ -3,7 +3,7 @@
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
-    💻 Currently learning Java • HTML/CSS
+    💻 Currently learning Java • Typescript
     💾 Open source software • Collaborative projects
 <a href="https://github.com/ethCS/"><img src="https://github.com/ethCS/ethCS/blob/main/assets/cat(2).gif?raw=true" height="230" /></a>
 </pre>
@@ -12,7 +12,7 @@
 ```
                                ​ ethCS@github 🐤🐥
            .            ┌───────────────────────────────┐ 
-          .e.           ​ os : ethan
+          .e.           ​ os : arch
          .eth.          ​ kernel : linux 6.13.4-arch1-1 
         .ethcs.          ​compositor : hyprland (wayland)
        ..;'eth.         ​ shell : ohmyzsh+powerlevel10k 
