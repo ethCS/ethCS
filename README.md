@@ -1,5 +1,7 @@
 <div align="center">
 <br><br>
+
+<a href="https://github.com/ethCS/"><img src="https://raw.githubusercontent.com/ethCS/ethCS/13798f74a8fc6c2f68709c88b05cad83dace8069/assets/readme-typing-svg.svg" width="70%" /></a>
 <pre>
     🏫 CS @ UMT • Full-time Student
     💻 Currently learning Java • Typescript
@@ -26,8 +28,6 @@ arch in ~
   λ echo "hello world!"
 ```
 <div align="center">
-
-<a href="https://github.com/ethCS/"><img src="https://raw.githubusercontent.com/ethCS/ethCS/b7052a241cf1735e303023bedd0fd632951c9664/assets/pvm.svg" width="70%" /></a>
 
 <div align="center"> <a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" width="60" /></a>
 
