@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://github.com/ethCS/"><img src="https://raw.githubusercontent.com/ethCS/ethCS/a12b0a8de3aaa9a644aba22f2455dc4de6e584a5/assets/readme-typing-svg.svg" width="70%" /></a>
+<a href="https://github.com/ethCS/"><img src="https://raw.githubusercontent.com/ethCS/ethCS/b7052a241cf1735e303023bedd0fd632951c9664/assets/pvm.svg" width="70%" /></a>
 <br><br>
 <pre>
     🏫 CS @ UMT • Full-time Student
@@ -30,8 +30,6 @@ arch in ~
 <div align="center"> <a href="http://linkedin.com/in/ehe"><img src="https://raw.githubusercontent.com/ethCS/ethCS/refs/heads/main/assets/mew.gif" height="60" width="60" /></a>
 
 [![](https://img.shields.io/badge/linkedin-800080)](http://linkedin.com/in/ehe)
-
-<a href="https://github.com/ethCS/"><img src="https://raw.githubusercontent.com/ethCS/ethCS/b7052a241cf1735e303023bedd0fd632951c9664/assets/pvm.svg" width="70%" /></a>
 
 <br><br><br>
 </div>
